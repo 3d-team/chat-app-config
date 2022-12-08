@@ -1,12 +1,8 @@
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 28017
       uri: mongodb://chat-messages-service-root:chat-messages-service-root-pass-123@localhost:28017/?authMechanism=DEFAULT
-      database: chat_messages_service_database
-      username: chat-messages-service-root
-      password: chat-messages-service-root-pass-123
+
   rabbitmq:
     host: localhost
     port: 5672
