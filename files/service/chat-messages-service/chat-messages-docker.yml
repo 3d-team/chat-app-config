@@ -1,6 +1,8 @@
 spring:
   data:
     mongodb:
+      user: chat-messages-service-root
+      password: chat-messages-service-root-pass-123
       uri: mongodb://chat-messages-service-root:chat-messages-service-root-pass-123@localhost:28017/?authMechanism=DEFAULT
 
   rabbitmq:
