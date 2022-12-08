@@ -2,8 +2,8 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     port: 5672
-    username: rabbitmq-user
-    password: rabbitmq-pass-123
+    username: guest
+    password: guest
   datasource:
     url: jdbc:mysql://localhost:3307/chat_service_database?createDatabaseIfNotExist=true&serverTimezone=UTC
     username: chat-service-user
